@@ -1,0 +1,41 @@
+
+body {
+	display: flex;
+}
+
+#test {
+	width: 50%;
+}
+
+.autofill_wrap {
+	display: flex;
+	flex: 1;
+}
+
+
+.input_autofill_list {
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;
+	z-index: 999999999;
+}
+
+
+.input_autofill_list {
+	background-color: #fff;
+	box-shadow: 3px 4px 10px -2px #b6b6b6;
+	border: 1px solid #b6b6b6;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+
+.input_autofill_list .item {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.input_autofill_list .item:hover,
+.input_autofill_list .item.hover {
+	background-color: #dadada;
+}
+
